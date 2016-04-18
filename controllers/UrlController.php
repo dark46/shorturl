@@ -57,17 +57,6 @@ class UrlController extends MainController
                 $shortUrlSlug = $this->generateRandomSlug();
                 $model = new Url();
                 $url = $model->getByShortUrlSlug($shortUrlSlug);
-                if ($url) {
-
-                    // Statement for unit test
-                    if(!isset($_SERVER['HTTP_HOST'])) {
-                        $output = ['error'=>'Выбранное короткое имя уже занято.'];
-                        return $output;
-                    }
-
-                    echo json_encode(['error'=>'Выбранное короткое имя уже занято.']);
-                    exit(); 
-                } 
                 if (!$url) {
                     break;
                 }
