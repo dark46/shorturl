@@ -9,8 +9,11 @@
 5. Запуск юнит-тестов из корневой директории проекта
 
 ./vendor/bin/phpunit unitTests/UrlController_createShortUrlTest.php
+
 ./vendor/bin/phpunit unitTests/UrlController_getRealUrlTest.php
+
 ./vendor/bin/phpunit unitTests/StatisticController_getStatTest.php
+
 ./vendor/bin/phpunit unitTests/StatisticController_getStatDataTest.php
 
 В базе есть одно значение, специально для юнит тестов.
