@@ -1,0 +1,55 @@
+div.inline {
+    display:inline;
+}
+#short_url {
+    visibility:hidden;
+    text-align:center;    
+}
+#short_url_link{
+    font-size:25px;
+}
+#copy_to_clipboard {
+    height:0px;    
+}
+#main{
+    padding:30px;
+    text-align:left;
+    width:600px;
+    min-height:200px;
+    margin-top:200px;
+    background-color:#FAFAFA;
+    border:1px solid #E6E6E6;
+    border-radius: 5px;    
+}    
+#expiredDate{
+    display:none;
+    height:45px;
+}
+#customShortUrl{
+    display:none;
+}
+#stat_info{
+    width:300px;
+    height:300px;
+    padding:50px 20px 0px 100px;
+    font-size:15px;
+    text-align:left;
+}
+.head {
+    margin-top:13px; 
+    width:200px;
+}
+.left {
+    float:left; 
+    width:80%; 
+    text-align:left;
+}
+
+.right {
+    float:right; 
+    width:20%; 
+    text-align:left;
+}
+.head div {
+   margin-bottom:20px;
+}
